@@ -1,0 +1,28 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+license="MIT"
+logoFile="logo.png"
+
+[[mods]]
+modId="undeaddragonboss"
+version="1.0.0"
+displayName="Undead Dragon Boss"
+displayURL="https://github.com/wzwfgwknhm-blip/minecraft-undead-dragon-boss-Mod"
+logoFile="logo.png"
+credits="Epic boss mod with complete progression system"
+authors="wzwfgwknhm"
+description="""An epic Minecraft mod featuring a massive undead dragon boss with advanced mechanics. Summon it in the Nether, defeat it to curse nearby mobs, gather materials with cursed servants, resurrect it at the Dragon Skeleton Statue to corrupt the Overworld with the Undead Kingdom biome, and face it in its corrupted realm. Includes powerful dragon claw weapons with lunge abilities and possession mechanics, cure potions to counter miasma poison, autonomous knight reproduction, soul harvesting, and a complete endgame progression cycle with intelligent chunk-based lag optimization."""
+
+[[dependencies.undeaddragonboss]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.undeaddragonboss]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

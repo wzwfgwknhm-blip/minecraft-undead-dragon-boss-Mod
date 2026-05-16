@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BHB",
+    "HWH",
+    "BHB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "H": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "W": {
+      "item": "minecraft:wither_star"
+    }
+  },
+  "result": {
+    "item": "undeaddragonboss:summoning_catalyst",
+    "count": 1
+  }
+}

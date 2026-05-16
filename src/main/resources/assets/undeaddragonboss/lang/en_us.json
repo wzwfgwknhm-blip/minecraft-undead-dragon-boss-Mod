@@ -1,0 +1,13 @@
+{
+  "entity.undeaddragonboss.undead_dragon_boss": "Undead Dragon Boss",
+  "entity.undeaddragonboss.dragon_possessed": "Possessed Dragon Spirit",
+  "item.undeaddragonboss.dragon_claw": "Dragon Claw",
+  "item.undeaddragonboss.summoning_catalyst": "Summoning Catalyst",
+  "item.undeaddragonboss.cure_potion": "Cure Potion",
+  "item.undeaddragonboss.cursed_bones": "Cursed Bones",
+  "item.undeaddragonboss.soul_essence": "Soul Essence",
+  "item.undeaddragonboss.dark_amethyst": "Dark Amethyst",
+  "effect.undeaddragonboss.undying_curse": "Undying Curse",
+  "effect.undeaddragonboss.dragon_possession": "Dragon Possession",
+  "biome.undeaddragonboss.undead_kingdom": "Undead Kingdom"
+}

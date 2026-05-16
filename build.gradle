@@ -1,0 +1,66 @@
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+
+group = 'com.example'
+archivesBaseName = 'undeaddragonboss'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = targetCompatibility = JavaVersion.VERSION_17
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.level', 'debug'
+            mods {
+                undeaddragonboss {
+                    source sourceSets.main
+                }
+            }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.level', 'debug'
+            mods {
+                undeaddragonboss {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'MinecraftForge'
+        url = 'https://maven.minecraftforge.net/'
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+}
+
+jars {
+    jar {
+        manifest {
+            attributes([
+                'Specification-Title': 'Undead Dragon Boss',
+                'Specification-Vendor': 'wzwfgwknhm',
+                'Specification-Version': '1',
+                'Implementation-Title': project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor' :'wzwfgwknhm'
+            ])
+        }
+    }
+}
